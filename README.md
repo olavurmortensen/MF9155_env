@@ -6,8 +6,6 @@ The environment.yml file contains packages from a course at University of Oslo:
 >
 > https://www.uio.no/studier/emner/medisin/med/MF9155/
 
-There was one package that was not available as a conda package: `ModelGood`. This package can be installed in R as `install.packages('ModelGood')`.
-
 ## Usage
 
 Create conda environment:
