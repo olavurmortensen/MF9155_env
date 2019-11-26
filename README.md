@@ -23,6 +23,11 @@ To run R with the installed packages, first activate environment:
 conda activate MF9155_course
 ```
 
+Tell RStudio which R path to use:
+```
+export RSTUDIO_WHICH_R=`which R`
+```
+
 Then run RStudio:
 ```
 rstudio
@@ -33,7 +38,9 @@ Deactivate environment when you're done:
 conda deactivate
 ```
 
-The `list_packages.R` script loads all the packages needed for the course, and runs `devtools::session_info()`.
+## devtools::session_info()
+
+The `list_packages.R` script loads all the packages needed for the course, and runs `devtools::session_info()`. Output:
 
 ```
 ─ Session info ───────────────────────────────────────────────────────────────

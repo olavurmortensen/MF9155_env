@@ -8,7 +8,6 @@ channels:
 dependencies:
     - r-base=3.6.1
     - r-essentials=3.6.0
-    - rstudio=1.1.456
     - r-biocmanager=1.30.4
     - r-pheatmap=1.0.12
     - r-cluster=2.0.8
