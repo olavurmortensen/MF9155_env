@@ -49,4 +49,5 @@ dependencies:
     - r-logging=0.10_108
     - r-microbenchmark=1.4_7
     - r-islr=1.2
+    - bioconductor-pasilla=1.14.0
     - r-devtools=2.0.2
