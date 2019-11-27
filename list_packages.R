@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+
 status = suppressMessages(library(devtools, logical.return=TRUE))
 status = suppressMessages(library(BiocManager, logical.return=TRUE))
 status = suppressMessages(library(pheatmap, logical.return=TRUE))
@@ -43,4 +44,4 @@ status = suppressMessages(library(readr, logical.return=TRUE))
 status = suppressMessages(library(logging, logical.return=TRUE))
 status = suppressMessages(library(microbenchmark, logical.return=TRUE))
 
-devtools::session_info()
+sessionInfo()
